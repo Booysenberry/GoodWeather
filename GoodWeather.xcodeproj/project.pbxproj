@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B018679247AF7EA00113EF3 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B018678247AF7EA00113EF3 /* WeatherViewModel.swift */; };
 		4B88F43924770EEB0030B0C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B88F43824770EEB0030B0C5 /* AppDelegate.swift */; };
 		4B88F43B24770EEB0030B0C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B88F43A24770EEB0030B0C5 /* SceneDelegate.swift */; };
 		4B88F43E24770EEB0030B0C5 /* GoodWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B88F43C24770EEB0030B0C5 /* GoodWeather.xcdatamodeld */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B018678247AF7EA00113EF3 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		4B88F43524770EEB0030B0C5 /* GoodWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B88F43824770EEB0030B0C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B88F43A24770EEB0030B0C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B018677247AF7CF00113EF3 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B018678247AF7EA00113EF3 /* WeatherViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		4B88F42C24770EEB0030B0C5 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				4B88F453247711750030B0C5 /* WeatherServices.swift */,
+				4B018677247AF7CF00113EF3 /* View Models */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -174,6 +185,7 @@
 				4B88F454247711750030B0C5 /* WeatherServices.swift in Sources */,
 				4B88F45124770FD30030B0C5 /* Weather.swift in Sources */,
 				4B88F43E24770EEB0030B0C5 /* GoodWeather.xcdatamodeld in Sources */,
+				4B018679247AF7EA00113EF3 /* WeatherViewModel.swift in Sources */,
 				4B88F43924770EEB0030B0C5 /* AppDelegate.swift in Sources */,
 				4B88F44024770EEB0030B0C5 /* ContentView.swift in Sources */,
 				4B88F43B24770EEB0030B0C5 /* SceneDelegate.swift in Sources */,
