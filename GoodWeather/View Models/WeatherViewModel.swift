@@ -49,9 +49,13 @@ class WeatherViewModel: ObservableObject {
         self.weatherService.getWeather(city: city) { weather in
            
             if let weather = weather {
-                self.weather = weather
+                
+                DispatchQueue.main.async {
+                    
+                    // Always set on the main thread if updating UI
+                    self.weather = weather
+                }
             }
-            
         }
     }
 }
