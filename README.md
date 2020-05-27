@@ -14,7 +14,7 @@ Open Terminal
 
 Run `git clone https://github.com/Booysenberry/GoodWeather.git`
 
-Open `goodweather.xcodeproj`
+Open `GoodWeather.xcodeproj`
 
 Build and run
 
