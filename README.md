@@ -7,6 +7,7 @@ Learning SwiftUI. This is the first project of the [SwiftUI - Declarative Interf
 ### 🛠 Built using:
 * Swift 5
 * SwiftUI
+* [Open Weather Map](https://openweathermap.org/api/)
 
 ### ✅ Instructions:
 
